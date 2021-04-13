@@ -187,6 +187,9 @@ CLASS Y_CHECK_BASE IMPLEMENTATION.
 
     has_attributes = do_attributes_exist( ).
 
+    remote_enabled = abap_true.
+    remote_rfc_enabled = abap_true.
+
     relevant_statement_types = VALUE #( ( scan_struc_stmnt_type-form )
                                         ( scan_struc_stmnt_type-method )
                                         ( scan_struc_stmnt_type-function )
